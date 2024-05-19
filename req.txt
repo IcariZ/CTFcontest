@@ -1,0 +1,9 @@
+Challange
+
+core: command injection
+other obstacle:     - get header not permit 
+                    - filter char di backend (blind)
+                    
+
+
+                    
