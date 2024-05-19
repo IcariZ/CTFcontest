@@ -3,7 +3,12 @@ Challange
 core: command injection
 other obstacle:     - get header not permit 
                     - filter char di backend (blind)
-                    
+----------------------------
+HASIL FEEDBACK 19 05 2024
 
+Priority:
+- run web app with docker
+- regis feature disimpan di ENV variable tanpa blacklist menggiring user menggunakan ${HOME:0:1}
+- perbanyak ban list
 
                     
