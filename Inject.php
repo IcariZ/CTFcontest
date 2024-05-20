@@ -3,7 +3,7 @@
 // menggiring player untuk menggunakan "tac" sebagai print file dan ${HOME:0:1} (kasih hint) pengganti /
 // banyakin BAN
 // tutorial run web di docker (inggris)
-
+// tes unicode injection
 $ban =[
     "cat",
     "/",
@@ -13,7 +13,15 @@ $ban =[
     "head",
     "tail",
     "echo",
-    "|"
+    "more",
+    "whoami",
+    "pwd",
+    "busybox",
+    ";",
+    "\'",
+    "\"",
+    " ",
+    
     //base64
     //
 ];
