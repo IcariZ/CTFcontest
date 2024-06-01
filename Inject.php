@@ -12,8 +12,8 @@ $ban =[
     "|",
     "nl",
     "%",
-    "\'",
-    "\"",
+    "'",
+    '"',
     "bash",
     "more",
     "@",
@@ -28,6 +28,7 @@ $ban =[
     "system",
     "passthru"
 ];
+
 try
 {
     if($_SERVER['REQUEST_METHOD'] ===  'GET')
@@ -50,12 +51,10 @@ try
         
         if(!isset($attack))
         {
-            echo "<p>note: after submission, should display stored item</p><br>";
-        }else
-        {
-            echo $attack;
+            $attack = "";
         }
-        
+        echo "<p>". $attack."</p>";
+        echo "<p>note: after submission, should display storedawdaw item</p><br>";        
     }else if($_SERVER['REQUEST_METHOD'] === 'POST')
     {
     

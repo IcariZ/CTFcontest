@@ -14,7 +14,7 @@
   <main>
     
     <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
-      <form action="/Inject.php" method="get" autocomplete="off">
+      <form action="/Inject.php" method="post" autocomplete="off">
         <label for="command"></label>
         <input type=text name="command" value=""><br>
         <input type="submit" value="Store">
