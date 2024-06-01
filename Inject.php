@@ -50,7 +50,7 @@ try
         
         if(!isset($attack))
         {
-            echo "<p>Attack unsuccessful sir</p><br>";
+            echo "<p>note: after submission, should display stored item</p><br>";
         }else
         {
             echo $attack;
@@ -59,7 +59,7 @@ try
     }else if($_SERVER['REQUEST_METHOD'] === 'POST')
     {
     
-        echo "<h1>Focus up Commander, HEAD to the other way!</h1><br>";
+        echo "<h1>Not Found</h1><br><br><p>The requested resource was not found on this server</p>";
     
     }    
 }catch(Throwable $e)
@@ -68,4 +68,4 @@ try
     echo "Error code: " . $e->getCode() . "<br>";
 }
 
-echo "<br><br><a href=\"/\">Go back, rewrite the attack!</a>";
+echo "<br><br><a href=\"/\">Back to item submission</a>";
