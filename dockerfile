@@ -8,7 +8,7 @@ COPY function.php ./
 
 COPY Inject.php ./
 
-COPY PageAsal.php ./
+COPY checkCOOKIE.php ./
 
 COPY flag.txt ../../../../../../../../../
 
