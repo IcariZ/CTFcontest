@@ -26,7 +26,9 @@ $ban =[
     ";",
     "exec",
     "system",
-    "passthru"
+    "passthru",
+    "+",
+    " "
 ];
 
 try
@@ -47,7 +49,6 @@ try
         }
 
         $attack = shell_exec($_GET['command']);
-        // future-note: should store the note into env variable
         
         if(!isset($attack))
         {

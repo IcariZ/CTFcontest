@@ -12,13 +12,12 @@ if (isset($_POST['uname']) && isset($_POST['pw']) && !empty(trim($_POST['uname']
         $cookie_const =(rand()%10000) . "=/" . $_POST['uname'] . "/" . $_POST['pw'];
         setcookie("PHPSESSID", base64_encode($cookie_const));
         shell_exec('export USER_' . $cookie_const);
-        // store the uname and pw in ENV variable
     }
 }
 
 if (!isset($_COOKIE['PHPSESSID']) ) 
 {
-    header('Location: /PageAsal.php');
+    header('Location: /checkCOOKIE.php');
     exit();
 }
 

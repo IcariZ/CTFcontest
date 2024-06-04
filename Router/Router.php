@@ -13,7 +13,7 @@ if(isset(parse_url($_SERVER["REQUEST_URI"])['query']))
 $routes = 
 [
     '/' => 'Controller/index.php',
-    '/PageAsal' => 'Controller/PageAsal.php'
+    '/checkCOOKIE.php' => 'Controller/toRegis.php'
 ];
 
 if(array_key_exists($uri,$routes))

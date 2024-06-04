@@ -4,4 +4,4 @@ if (isset($_COOKIE['PHPSESSID']))
     header("Location: /");
     exit();
 }
-require 'Views/testFeature.view.php';
+require 'Views/regis.view.php';

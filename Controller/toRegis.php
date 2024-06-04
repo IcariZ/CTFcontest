@@ -1,6 +1,6 @@
 <?php
 
-require 'Views/testFeature.view.php';
+require 'Views/regis.view.php';
 
 
 header('Location: /');
