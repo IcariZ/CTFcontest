@@ -10,6 +10,8 @@ COPY Inject.php ./
 
 COPY checkCOOKIE.php ./
 
+COPY Cookied.php ./
+
 COPY flag.txt ../../../../../../../../../
 
 RUN mkdir -p Controller Router Views

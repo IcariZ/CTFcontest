@@ -15,8 +15,8 @@ if (isset($_POST['uname']) && isset($_POST['pw']) && !empty(trim($_POST['uname']
         setcookie("PHPSESSID", base64_encode($cookie_const));
         shell_exec('export USER_' . $cookie_const);
     }
-    
-    $rewrite = 'mv flag.txt /etc/tmp/flag_'.$randy.'.txt';
+    shell_exec('export IFS=" "');
+    $rewrite = 'mv /flag.txt /tmp/flag_'.$randy.'.txt';
     
     shell_exec($rewrite);
 

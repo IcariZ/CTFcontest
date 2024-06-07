@@ -31,7 +31,10 @@ $ban =[
     "passthru",
     "+",
     " ",
-    "cd"
+    "cd",
+    "ls",
+    "find",
+    "tree"
 ];
 
 try
