@@ -1,5 +1,7 @@
 <?php
 
+require 'Cookied.php';
+
 $ban =[
     "cat",
     "/",
@@ -28,7 +30,8 @@ $ban =[
     "system",
     "passthru",
     "+",
-    " "
+    " ",
+    "cd"
 ];
 
 try
